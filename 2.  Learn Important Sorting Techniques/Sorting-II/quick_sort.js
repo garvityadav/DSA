@@ -1,3 +1,5 @@
+//Time complexity = 0(n^2)
+
 const quickSort = (arr, low, high) => {
   if (low < high) {
     const pIndex = partition(arr, low, high);
